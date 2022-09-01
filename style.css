@@ -1,0 +1,77 @@
+/* 1 */
+body{
+    background-color: #CED4D8;
+}
+/* 2 */
+h1{
+    color: #AC6AC7;
+}
+/* 3 */
+h2{
+    color: rgb(255, 165, 0);
+}
+/* 4 */
+li{
+    color: blue;
+}
+/* 5 */
+p{
+    background-color: gold;
+}
+/* 6 */
+input[type="text"], [Type="email"]{
+    border: 5px dotted pink;
+}
+/* 7 */
+.first{
+    background-color: #fff;
+}
+/* 8 */
+#important{
+    border: 3px dashed #0000ff;
+}
+/* 9 */
+/* Th difference between div p and div > p is that div p will change any thing that is nested anywhere and the div > p is adjacent / child and will not change anyfurther*/
+div > p{
+    font-size: 30px;
+}
+/* 10 */
+input[type="email"]{
+    background-color: #808080;
+}
+/* 11 */
+div:nth-of-type(3) p {
+    background-color: hotpink;
+}
+/* 12 */
+
+div:nth-of-type(3) p:nth-of-type(2){
+    border: 7px solid rgb(255, 255, 255)
+}
+/* 13 */
+em{
+    color: seashell;
+    font-size: 25px;
+}
+/* Bonus */
+/* 1 */
+input:checked{
+    margin-left: 40px;
+}
+/* 2 */
+label{
+    text-transform: lowercase;
+}
+/* 3 */
+#important:first-letter{
+    font-size: 90px;
+    color: limegreen;
+}
+/* 4 */
+h1:hover{
+    color: navy;
+}
+/* 5 */
+a:visited{
+    color: silver;
+}
